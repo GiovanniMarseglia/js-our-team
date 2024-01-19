@@ -39,7 +39,7 @@ const persone = [
 
 
 
-for(let i=0;i<6;i++){
+for(let i=0;i<persone.length;i++){
     const divHTML= document.createElement("div")
     const infoHTML= document.createElement("div")
     const figureHTML= document.createElement("figure")
