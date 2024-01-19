@@ -52,6 +52,8 @@ for(let i=0;i<6;i++){
     const img = document.createElement("img")
     figureHTML.append(img)
     img.setAttribute("src", `./img/${persone[i].immagine}`)
-    console.log(persone[i].nome,persone[i].cognome,persone[i].professione,persone[i].immagine)
+    
     
 }
+
+console.log(persone)
