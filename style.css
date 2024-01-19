@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: coral;
+}
+
+
+figure{
+    height: 250px;
+    margin-right: 100px;
+}
+
+
+figure img{
+    height: 100%;
+    display: block;
+}
+
+.primo{
+    display: flex;
+    background-color: goldenrod;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding: 0px 300px;
+    text-align: left;
+    margin-bottom: 50px;
+    gap: 150px;
+}
+
+.secondo{
+    width: 600px;
+}
+
+
+
+
